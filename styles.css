@@ -1,0 +1,42 @@
+body {
+  background: #000;
+  color: #17D4FE;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.light{
+  background-color: #255784;
+  color: #FFF;
+}
+
+.dark{
+  background: #000;
+  color: #17D4FE;
+}
+
+.dclock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 7px;
+}
+
+.myButton {
+  padding: 15px 15px;
+  color: #17D4FE;
+  font-size: 18px;
+  overflow: hidden;
+  text-decoration: none;
+  margin-top: 30px;
+  border: 2px solid #17D4FE;
+}
+
+.myButton:hover {
+  color: #255784;
+  background: #17D4FE;
+  box-shadow: 0 0 10px #17D4FE, 0 0 40px #17D4FE, 0 0 80px #17D4FE;
+  transition-delay: 0s;
+}
